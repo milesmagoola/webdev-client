@@ -7,6 +7,9 @@ export default function TOC() {
       <h6>The land of the free and the home of the brave. Or something idk I just work here.</h6>
       <ul>
         <li>
+          <Link id="wd-toc-lab1-link" href="/labs/lab1">Lab 1</Link>
+        </li>
+        <li>
           <Link id="wd-toc-book-link" href="/book/ch1">Chapter 1</Link>
         </li>
         <li>

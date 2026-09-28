@@ -34,7 +34,7 @@ export default function HeadingTags() {
        <div id="wd-your-heading">
             <h4>Hey, it&apos;s</h4>
             <h2>MK!</h2>
-            I&apos;m the founder of STUDIO <span id="wd-inline-span">KABILITO</span>: 
+            I&apos;m the founder of STUDIO <span id="wd-your-span">KABILITO</span>: 
             a sustainable small business using visual storytelling and aesthetic to 
             empower the BIPOC LGBTQ+ community. I&apos;m also a freelance designer across 
             motion, web, and brand.

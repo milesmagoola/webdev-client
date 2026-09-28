@@ -20,7 +20,7 @@ export default function Images() {
         alt="Tesla Bot (Optimus) humanoid robot"
       />
       <img
-        id="wd-teslabot"
+        id="wd-your-image"
         src="/images/duck.png"
         height="200px"
         alt="A robot duck from Deltarune"

@@ -12,14 +12,14 @@ export default function AnchorTag() {
         GitHub
       </a>
       <br />
-      <a href="https://studiokabilito.carrd.co" id="wd-kabilito" target="_blank"
+      <a href="https://studiokabilito.carrd.co" id="wd-your-link" target="_blank"
   rel="noreferrer">
         STUDIO KABILITO Landing Page
       </a>
       <br />
-      <a href="https://www.linkedin.com/in/mkmagoola/" id="wd-linkedin" target="_blank"
+      <a href="https://github.com/milesmagoola" id="wd-your-github" target="_blank"
   rel="noreferrer">
-        LinkedIn
+        MK&apos;s GitHub
       </a>
       <br />
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" id="wd-ai-link" target="_blank"
