@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function TOC() {
   return (
     <div id="wd-toc">
-      <h4>Welcome to MK&apos;s world!</h4>
+      <h4>Welcome to MK&apos;s world! Land of Miles-Kabilito Magoola.</h4>
       <h6>The land of the free and the home of the brave. Or something idk I just work here.</h6>
       <ul>
         <li>
