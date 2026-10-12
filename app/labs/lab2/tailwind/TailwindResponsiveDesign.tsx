@@ -89,5 +89,6 @@ export default function TailwindResponsiveDesign() {
         </div>
       </div>
     </div>
+    </div>
   );
 }
