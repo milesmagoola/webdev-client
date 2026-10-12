@@ -14,12 +14,16 @@ import Float from "./Float";
 import GridLayout from "./GridLayout";
 import Flex from "./Flex";
 import MediaQueriesDemo from "./MediaQueriesDemo";
+import ReactIconsSampler from "./ReactIconSampler";
 
 export default function Lab2() {
   return (
     <div id="wd-lab2">
       <h2>Lab 2 - Cascading Style Sheets</h2>
-      <h3>Styling with the STYLE attribute</h3>
+      <h3>Styling with the STYLE attribute with Miles-Kabilito Magoola</h3>
+      <p>
+  <a href="https://github.com/milesmagoola/webdev-client/">Github→</a>
+</p>
       <p>
         Style attribute allows configuring look and feel right on the
         element. Although it&apos;s very convenient it is considered bad
@@ -144,7 +148,8 @@ export default function Lab2() {
 <Float />
 <GridLayout />
 <Flex /> 
-<MediaQueriesDemo /> 
+<MediaQueriesDemo />
+<ReactIconsSampler />
 
     </div> 
   );
