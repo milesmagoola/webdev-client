@@ -9,7 +9,6 @@ export default function FindIndex() {
       fourIndex = {fourIndex} <br />
       string3Index = {string3Index} <br />
       sixIndex = {numberArray1.findIndex((a) => a === 6)} <br />
-      numberArray1.findIndex((a) => a === 3)
       <hr />
     </div>
   );
