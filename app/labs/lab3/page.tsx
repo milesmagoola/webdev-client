@@ -24,7 +24,6 @@ import House from "./House";
 import Spreader from "./Spreader";
 import Destructing from "./Destructing";
 import FunctionDestructing from "./FunctionDestructing";
-/*import DestructingImports from "./DestructingImports";*/
 
 
 export default function Lab3() {
