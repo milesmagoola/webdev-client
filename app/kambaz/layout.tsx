@@ -1,7 +1,7 @@
 import { AccountProvider } from "./account/AccountContext";
 import KambazNavigation from "./Navigation";
 import { type ReactNode } from "react";
-
+import { Suspense } from "react";
 
 export default function KambazLayout({
   children,
@@ -9,7 +9,9 @@ export default function KambazLayout({
   return (
     <AccountProvider>
       <div id="wd-kambaz" className="font-sans">
-        <KambazNavigation />
+        <Suspense>
+          <KambazNavigation />
+        </Suspense>
         <div className="wd-main-content-offset p-3">{children}</div>
       </div>
     </AccountProvider>

@@ -1,5 +1,4 @@
 "use client";
-export const instant = false;
 
 import { AiOutlineDashboard } from "react-icons/ai";
 import { IoCalendarOutline } from "react-icons/io5";
