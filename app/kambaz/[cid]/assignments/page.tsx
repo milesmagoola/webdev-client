@@ -1,3 +1,5 @@
+"use cache";
+
 import AssignmentItem from "./AssignmentItem";
 
 export default async function Assignments({
