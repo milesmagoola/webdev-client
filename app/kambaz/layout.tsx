@@ -7,13 +7,15 @@ export default function KambazLayout({
   children,
 }: Readonly<{ children: ReactNode }>) {
   return (
-    <AccountProvider>
-      <div id="wd-kambaz" className="font-sans">
-        <Suspense>
-          <KambazNavigation />
-        </Suspense>
-        <div className="wd-main-content-offset p-3">{children}</div>
-      </div>
-    </AccountProvider>
+    <Suspense>
+      <AccountProvider>
+        <div id="wd-kambaz" className="font-sans">
+          <Suspense>
+            <KambazNavigation />
+          </Suspense>
+          <div className="wd-main-content-offset p-3">{children}</div>
+        </div>
+      </AccountProvider>
+    </Suspense>
   );
 }
