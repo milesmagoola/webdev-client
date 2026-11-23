@@ -2,7 +2,7 @@ import ClickEvent from "./ClickEvent";
 import Counter from "./Counter";
 import CounterBroken from "./CounterBroken";
 import PassingDataOnEvent from "./PassingDataOnEvent";
-import PassingFunctions from "./PassingFunctions";
+//import PassingFunctions from "./PassingFunctions";
 import BooleanStateVariables from "./BooleanStateVariables";
 import StringStateVariables from "./StringStateVariables";
 import DataStateVariable from "./DataStateVariable";
@@ -12,8 +12,7 @@ import PropDrilling from "./PropDrilling";
 import URLEncoding from "./UrlEncoding";
 import ZustandExamples from "./zustand/ZustandExamples";
 import ReduxExamples from "./redux/ReduxExamples";
-import ChildStateComponent from "./ChildStateComponent";
-import { Suspense } from "react";
+//import ChildStateComponent from "./ChildStateComponent";
 
 export default function Lab4() {
   console.log("Lab 4 loaded");
@@ -22,12 +21,10 @@ export default function Lab4() {
       <h2>Lab 4</h2>
       <ClickEvent />
       <PassingDataOnEvent />
-      <Suspense>
-        <PassingFunctions
+      {/* <PassingFunctions
           message="Hello from Lab 4"
           theFunction={(message: string) => alert(message)}
-        />
-      </Suspense>
+        /> */}
       <CounterBroken />
       <Counter></Counter>
       <BooleanStateVariables />
@@ -37,9 +34,7 @@ export default function Lab4() {
       <ArrayStateVariable />
       <PropDrilling />
       <URLEncoding />
-      <Suspense>
-        <ChildStateComponent counter={0} setCounter={() => {}} />
-      </Suspense>
+      {/* <ChildStateComponent counter={0} setCounter={() => {}} /> */}
       <ZustandExamples />
       <ReduxExamples />
       <hr />
