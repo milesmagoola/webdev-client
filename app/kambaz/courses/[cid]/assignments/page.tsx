@@ -1,6 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-nocheck
-
 import { FaPlus, FaSearch } from "react-icons/fa";
 import AssignmentItem from "./AssignmentItem";
 import * as db from "../../../database";

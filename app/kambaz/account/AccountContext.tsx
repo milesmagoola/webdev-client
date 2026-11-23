@@ -1,6 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-nocheck
-
 "use client";
 
 import { createContext, useContext, useState, type ReactNode } from "react";

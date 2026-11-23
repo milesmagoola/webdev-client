@@ -1,6 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-nocheck
-
 import { FaCheckCircle, FaPencilAlt, FaTrash } from "react-icons/fa";
 import { BsPlus } from "react-icons/bs";
 import { IoEllipsisVertical } from "react-icons/io5";

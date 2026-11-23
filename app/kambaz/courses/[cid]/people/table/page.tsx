@@ -1,6 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-nocheck
-
 import { FaUserCircle } from "react-icons/fa";
 import * as db from "../../../../database";
 

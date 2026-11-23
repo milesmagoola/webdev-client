@@ -1,6 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-nocheck
-
 "use client";
 
 import { useState } from "react";
@@ -50,9 +47,7 @@ export default function Dashboard() {
         className="mb-3 block w-full max-w-xl rounded border border-neutral-300 px-3 py-1.5"
         rows={3}
         value={course.description}
-        onChange={(e) =>
-          setCourse({ ...course, description: e.target.value })
-        }
+        onChange={(e) => setCourse({ ...course, description: e.target.value })}
         id="wd-course-description"
       />
       <hr />
@@ -63,11 +58,7 @@ export default function Dashboard() {
         className="grid grid-cols-1 gap-8 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4"
       >
         {courses.map((c) => (
-          <CourseCard
-            key={c._id}
-            course={c}
-            onEdit={() => setCourse(c)}
-          />
+          <CourseCard key={c._id} course={c} onEdit={() => setCourse(c)} />
         ))}
       </div>
     </div>
