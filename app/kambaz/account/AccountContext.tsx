@@ -1,6 +1,12 @@
 "use client";
 
-import { createContext, useContext, useState, type ReactNode } from "react";
+import {
+  createContext,
+  Suspense,
+  useContext,
+  useState,
+  type ReactNode,
+} from "react";
 import usersJson from "../database/users.json";
 
 export type User = (typeof usersJson)[number];
@@ -15,9 +21,11 @@ const AccountContext = createContext<AccountContextValue | null>(null);
 export function AccountProvider({ children }: { children: ReactNode }) {
   const [currentUser, setCurrentUser] = useState<User | null>(null);
   return (
-    <AccountContext.Provider value={{ currentUser, setCurrentUser }}>
-      {children}
-    </AccountContext.Provider>
+    <Suspense>
+      <AccountContext.Provider value={{ currentUser, setCurrentUser }}>
+        {children}
+      </AccountContext.Provider>
+    </Suspense>
   );
 }
 
