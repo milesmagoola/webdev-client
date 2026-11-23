@@ -10,6 +10,8 @@ import ObjectStateVariable from "./ObjectStateVariable";
 import ArrayStateVariable from "./ArrayStateVariable";
 import PropDrilling from "./PropDrilling";
 import URLEncoding from "./UrlEncoding";
+import ZustandExamples from "./zustand/ZustandExamples";
+import ReduxExamples from "./redux/ReduxExamples";
 //import ChildStateComponent from "./ChildStateComponent";
 
 export default function Lab4() {
@@ -33,6 +35,8 @@ export default function Lab4() {
       <PropDrilling />
       <URLEncoding />
       {/* <ChildStateComponent counter={0} setCounter={() => {}} /> */}
+      <ZustandExamples />
+      <ReduxExamples />
       <hr />
     </div>
   );
