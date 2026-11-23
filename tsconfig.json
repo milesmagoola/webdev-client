@@ -29,7 +29,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    "app/labs/lab4/url-encoding/path-params/[a]/[b]/[c]/page"
   ],
   "exclude": ["node_modules"]
 }
