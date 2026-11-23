@@ -10,21 +10,20 @@ export default function BooleanVariables() {
   let true5 = floatingPointNumber !== 321.432;
   let false3 = numberVariable < 100;
   let true6 = "num" === "num";
-  let false4 = "123" == 123;
+  //let false4 = "123" == 123;
   const true7 = numberVariable !== 0;
   return (
     <div id="wd-boolean-variables">
       <h4>Boolean Variables</h4>
-      true1 = {true1 + ""}   <br />
+      true1 = {true1 + ""} <br />
       false1 = {false1 + ""} <br />
       false2 = {false2 + ""} <br />
-      true2 = {true2 + ""}   <br />
-      true3 = {true3 + ""}   <br />
-      true4 = {true4 + ""}   <br />
-      true5 = {true5 + ""}   <br />
-      false3 = {false3 + ""}   <br />
-      true6 = {true6 + ""}   <br />
-      false4 = {false4 + ""} <br />
+      true2 = {true2 + ""} <br />
+      true3 = {true3 + ""} <br />
+      true4 = {true4 + ""} <br />
+      true5 = {true5 + ""} <br />
+      false3 = {false3 + ""} <br />
+      true6 = {true6 + ""} <br />
       true7 = {true7 + ""}
       <hr />
     </div>
