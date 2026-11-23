@@ -1,6 +1,7 @@
 "use client";
 
 import { useParams } from "next/navigation";
+import { Suspense } from "react";
 
 export default function PathCalculator() {
   const params = useParams();
@@ -12,6 +13,7 @@ export default function PathCalculator() {
   const c = parseFloat(cRaw);
   const sum = a + b + c;
   return (
+    <Suspense>
     <div id="wd-path-calculator">
       <h1>Calculator – Path Parameters</h1>
       <p>Raw path segments (already decoded by Next.js):</p>
@@ -27,4 +29,5 @@ export default function PathCalculator() {
       <h2 className="text-green-700">Sum = {sum}</h2>
     </div>
   );
+  </Suspense>
 }
