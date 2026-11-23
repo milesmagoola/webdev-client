@@ -1,4 +1,5 @@
 "use client";
+export const instant = false;
 
 import { AiOutlineDashboard } from "react-icons/ai";
 import { IoCalendarOutline } from "react-icons/io5";
@@ -51,7 +52,8 @@ export default function KambazNavigation() {
           className={`inline-block text-3xl ${
             accountActive ? "text-red-600" : "text-white"
           }`}
-        /> <br />
+        />{" "}
+        <br />
         Account
       </Link>
       {LINKS.map((link) => {
