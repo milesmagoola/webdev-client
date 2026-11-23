@@ -10,7 +10,7 @@ import ObjectStateVariable from "./ObjectStateVariable";
 import ArrayStateVariable from "./ArrayStateVariable";
 import PropDrilling from "./PropDrilling";
 import URLEncoding from "./UrlEncoding";
-import ChildStateComponent from "./ChildStateComponent";
+//import ChildStateComponent from "./ChildStateComponent";
 
 export default function Lab4() {
   console.log("Lab 4 loaded");

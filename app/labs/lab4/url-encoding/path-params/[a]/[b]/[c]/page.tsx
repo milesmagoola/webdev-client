@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 
 import { useParams } from "next/navigation";
 import { Suspense } from "react";
@@ -30,4 +30,4 @@ export default function PathCalculator() {
     </div>
   );
   </Suspense>
-}
+}*/
